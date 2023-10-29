@@ -13,3 +13,5 @@ include_directories(
 )
 add_executable(movetox src/move_to_X.cpp)
 target_link_libraries(movetox ${catkin_LIBRARIES})
+add_executable(gotoxy src/move_to_XY.cpp)
+target_link_libraries(gotoxy ${catkin_LIBRARIES})
